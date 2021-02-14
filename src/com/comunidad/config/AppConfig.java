@@ -60,7 +60,7 @@ public class AppConfig {
         LocalContainerEntityManagerFactoryBean bean = new LocalContainerEntityManagerFactoryBean();
         bean.setDataSource(dataSource);
         bean.setJpaVendorAdapter(jpaVendorAdapter);
-        bean.setPackagesToScan("com.doj.restapi.bean");
+        bean.setPackagesToScan("com.comunidad.bean");
         return bean;
     }
 
