@@ -26,6 +26,10 @@ import org.hibernate.annotations.Type;
 public class Usuario {
     
     
+        public Usuario(){
+            
+        }
+    
         public Usuario(String registroAcademico, String nombreCompleto, String password, Timestamp fechaDeNacimiento, GeneroUsuario genero, String fotoDePerfil, String correoElectronico, RolUsuario rolUsuario, String ciudad, EstadoUsuario estado) {
         this.registroAcademico = registroAcademico;
         this.nombreCompleto = nombreCompleto;
